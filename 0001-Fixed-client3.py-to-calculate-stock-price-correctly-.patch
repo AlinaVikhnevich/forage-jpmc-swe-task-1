@@ -1,0 +1,33 @@
+From ed809778514398248544aaf95d2f04a8c6341b19 Mon Sep 17 00:00:00 2001
+From: AlinaVikhnevich <alina_vikhnevich@icloud.com>
+Date: Mon, 29 Jul 2024 17:20:40 -0400
+Subject: [PATCH] Fixed client3.py to calculate stock price correctly and added
+ unit tests
+
+---
+ .idea/.gitignore  | 8 ++++++++
+ fix_client3.patch | 0
+ 2 files changed, 8 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 fix_client3.patch
+
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+index 0000000..13566b8
+--- /dev/null
++++ b/.idea/.gitignore
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+diff --git a/fix_client3.patch b/fix_client3.patch
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.39.3 (Apple Git-146)
+
